@@ -11,6 +11,6 @@ MagicBook::BookClass evaluateBookSize(const MagicBook& book) {
     }
 }
 
-bool isFromArcaneYear(const MagicBook& book) {
-    return (book.year % 100 == 0) && (book.year >= 100);
+bool isFromArcaneYear(const MagicBook& b) {
+    return (b.year % 100 == 0) && (b.year >= 100);
 }

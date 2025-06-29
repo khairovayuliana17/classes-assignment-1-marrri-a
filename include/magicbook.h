@@ -12,4 +12,4 @@ class MagicBook {
 };
 
 MagicBook::BookClass evaluateBookSize(const MagicBook& book);
-bool isFromArcaneYear(const MagicBook& book);
+bool isFromArcaneYear(const MagicBook& b);
